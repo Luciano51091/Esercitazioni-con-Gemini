@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+
+  img {
+    width: 15%;
+  }
+}
+
+.conteiner {
+  background-color: rgba(255, 255, 224, 0.47);
+  border-top: 2.25px solid rgba(255, 166, 0, 0.353);
+  margin: 0px;
+  padding: 1px;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 15px;
+  color: #107777;
+}
+
+.registrationTitle {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px rgb(221, 136, 18);
+
+  h2 {
+    margin-bottom: 0%;
+    color: #0b5c5c;
+  }
+}
+
+.form {
+  text-align: center;
+  margin: 3rem;
+  padding: 0;
+
+  h2 {
+    color: #0b5c5c;
+    text-align: left;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 1px #dd8812;
+  }
+
+  form {
+    background-color: #7cd5d548;
+    border-radius: 3%;
+  }
+}
+
+.authentication {
+  text-align: center;
+  padding: 2.5rem;
+
+  input#usname {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  input#mail {
+    margin-left: 0.5rem;
+  }
+
+  input#pass {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  input#confpass {
+    margin-left: 0.5rem;
+  }
+}
+
+.anagraphic {
+  text-align: center;
+  padding: 2rem;
+
+  input#fname {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input#lname {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input#count {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input#nphone {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input#dateBirth {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input#addr {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.type {
+  padding-left: 5.5rem;
+  text-align: left;
+
+  input#man {
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+  }
+  input#woman {
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.submit {
+  padding: 2rem;
+  margin-bottom: 4rem;
+}

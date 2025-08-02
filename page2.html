@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply RECIPES-Registration</title>
+    <link rel="stylesheet" href="page2.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/img/logo.png" alt="logo" width="20%" />
+      </div>
+      <div class="conteiner">
+        <h3 class="subtitle">
+          Part of <span class="bold"><strong>A SIMPLY FABULOUS THANKSGIVING</strong></span>
+        </h3>
+      </div>
+    </header>
+
+    <main>
+      <div class="registrationTitle">
+        <h2>Registrazione nuovo utente</h2>
+      </div>
+
+      <div class="form">
+        <form action="">
+          <br />
+          <h2>Dati di autenticazione</h2>
+
+          <div class="authentication">
+            <label for="username">Nome Utente</label>
+            <input type="text" name="usname" id="usname" />
+
+            <label for="mail address">Indirizzo Email</label>
+            <input type="email" name="mail" id="mail" />
+            <br /><br />
+
+            <label for="password">Password</label>
+            <input type="password" name="pass" id="pass" />
+
+            <label for="confirm password">Conferma password</label>
+            <input type="password" name="confpass" id="confpass" />
+            <br /><br />
+          </div>
+          <h2>Anagrafica</h2>
+          <div class="anagraphic">
+            <label for="first name">Nome</label>
+            <input type="text" name="fname" id="fname" />
+
+            <label for="last name">Cognome</label>
+            <input type="text" name="lname" id="lname" /><br /><br />
+
+            <label for="country">Paese</label>
+            <input type="text" name="count" id="count" />
+
+            <label for="phone number">Numero di Telefono</label>
+            <input type="phone" name="nphone" id="nphone" /><br /><br />
+
+            <label for="Birth">Data di Nascita:</label>
+            <input type="date" name="dateBirth" id="dateBirth" />
+
+            <label for="personal address">Indirizzo</label>
+            <input type="address" name="addr" id="addr" />
+
+            <br /><br /><br />
+            <div class="type">
+              <label for="sex">Genere</label>
+              <input type="radio" name="man" id="man" />Uomo <input type="radio" name="woman" id="woman" />Donna<br /><br /><br />
+            </div>
+          </div>
+
+          <div class="submit">
+            <button>Iscriviti!</button>
+          </div>
+
+          <label for="terms and conditions">Accettazione dei Termini e Condizioni</label><br /><br />
+          <input type="checkbox" name="accept" id="accept" />Accetto <input type="checkbox" name="nonaccept" id="nonaccept" />Non accetto <br /><br />
+
+          <label for="newsletter">Vuoi iscriverti alla nostra newsletter</label><br /><br />
+          <input type="radio" name="yes" id="yes" />Si <input type="radio" name="no" id="no" />No <br /><br />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
