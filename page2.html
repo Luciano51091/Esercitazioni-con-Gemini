@@ -30,18 +30,22 @@
           <h2>Dati di autenticazione</h2>
 
           <div class="authentication">
-            <label for="username">Nome Utente</label>
-            <input type="text" name="usname" id="usname" />
-
-            <label for="mail address">Indirizzo Email</label>
-            <input type="email" name="mail" id="mail" />
+            <div class="user">
+              <label for="username">Nome Utente</label>
+              <input type="text" name="username" id="username" />
+            </div>
+            <div class="address">
+              <label for="mailAddress">Indirizzo Email</label>
+            </div>
+            <input type="email" name="mailAddress" id="mailAddress" />
             <br /><br />
 
             <label for="password">Password</label>
-            <input type="password" name="pass" id="pass" />
-
-            <label for="confirm password">Conferma password</label>
-            <input type="password" name="confpass" id="confpass" />
+            <input type="password" name="password" id="password" />
+            <div class="confirm">
+              <label for="confirmPassword">Conferma password</label>
+              <input type="password" name="confirmPassword" id="confirmPassword" />
+            </div>
             <br /><br />
           </div>
           <h2>Anagrafica</h2>
@@ -66,8 +70,10 @@
 
             <br /><br /><br />
             <div class="type">
-              <label for="sex">Genere</label>
-              <input type="radio" name="man" id="man" />Uomo <input type="radio" name="woman" id="woman" />Donna<br /><br /><br />
+              <legend>Genere</legend>
+              <label><input type="radio" name="radio" value="man" />Uomo</label>
+              <label><input type="radio" name="radio" value="woman" />Donna</label>
+              <br /><br /><br />
             </div>
           </div>
 
@@ -76,10 +82,12 @@
           </div>
 
           <label for="terms and conditions">Accettazione dei Termini e Condizioni</label><br /><br />
-          <input type="checkbox" name="accept" id="accept" />Accetto <input type="checkbox" name="nonaccept" id="nonaccept" />Non accetto <br /><br />
+          <input type="checkbox" name="checkbox" id="checkbox" />Accetto <input type="checkbox" name="nonaccept" id="nonaccept" />Non accetto <br /><br />
 
-          <label for="newsletter">Vuoi iscriverti alla nostra newsletter</label><br /><br />
-          <input type="radio" name="yes" id="yes" />Si <input type="radio" name="no" id="no" />No <br /><br />
+          <legend>Vuoi iscriverti alla nostra newsletter</legend>
+          <br /><br />
+          <label><input type="radio" name="radio" />Si</label>
+          <label><input type="radio" name="radio" />No</label> <br /><br />
         </form>
       </div>
     </main>

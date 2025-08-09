@@ -84,6 +84,22 @@ body {
   }
 }
 
+.user {
+  text-align: left;
+  display: inline;
+  padding-right: 3.3rem;
+}
+
+.address {
+  text-align: right;
+  display: inline;
+}
+
+.confirm {
+  display: inline;
+  margin-left: 3rem;
+}
+
 .anagraphic {
   text-align: center;
   padding: 2rem;
